@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: ; */
+    font-family: 'Spartan', sans-serif;
+    font-size: 0.9375em;
+}
+
+h1, h3, p {
+    margin: 15px;
+}
+.wrapper {
+    width: 80%;
+    background-color:  hsl(0, 0%, 100%);
+    background: url(../images/bg-pattern-top-mobile.svg);
+    background: url(../images/bg-pattern-bottom-mobile.svg);
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    color: hsl(303, 10%, 53%);
+    margin: 30px 0;
+}
+
+.header h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.rate-div {
+    width: 100%;
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    margin: 10px auto;
+    font-size: 12px;
+    padding: 8px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.card {
+    background-color: hsl(300, 43%, 22%);
+    width: 100%;
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.card div {
+    margin: 20px 0;
+}
+
+.card div img {
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 20%;
+}
+
+.card div p, .card div img {
+    float: left;
+}
+
+.card div p span {
+    color: hsl(333, 80%, 67%);
+}
+
+.card .description{
+    clear: left;
+    padding: 20px 0;
+}
+
+@media screen and (min-width:600px) {
+
+    .header {
+        display: flex;
+        text-align: left;
+    }
+
+    .header h1 {
+        font-size: 2.5rem;
+    }
+
+    .header .intro {
+        width: 40%;
+    }
+    .header .rate-section {
+        width: 60%;
+    }
+
+    .header .intro p, .header .intro h1 {
+        width: 85%;
+    }
+
+    .header .intro p {
+        font-size: 12px;
+    }
+
+    ul {
+        justify-content: space-between;
+
+    }
+
+    .rate-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 71%;
+        margin-left: 80px;
+    }
+
+    .rate-section .star2 {
+        margin-left: 120px;
+    }
+
+    .rate-section .star3 {
+        margin-left: 180px;
+    }
+
+    .card-section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card {
+        width: 350px;
+    }
+
+    .card-section .card2 {
+        margin-top: 30px;
+    }
+
+    .card-section .card3 {
+        margin-top: 60px;
+    }
+
+    
+}
