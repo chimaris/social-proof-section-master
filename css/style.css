@@ -5,7 +5,7 @@
 }
 
 body {
-    /* background: ; */
+    background: url(../images/bg-pattern-bottom-mobile.svg);
     font-family: 'Spartan', sans-serif;
     font-size: 0.9375em;
 }
@@ -17,7 +17,6 @@ h1, h3, p {
     width: 80%;
     background-color:  hsl(0, 0%, 100%);
     background: url(../images/bg-pattern-top-mobile.svg);
-    background: url(../images/bg-pattern-bottom-mobile.svg);
     margin: auto;
 }
 
@@ -84,6 +83,13 @@ ul {
 }
 
 @media screen and (min-width:600px) {
+    body {
+        background: url(../images/bg-pattern-bottom-desktop.svg);
+    }
+    .wrapper {
+        background: url(../images/bg-pattern-top-desktop.svg);
+        /* background: url(../images/bg-pattern-bottom-desktop.svg); */
+    }
 
     .header {
         display: flex;
