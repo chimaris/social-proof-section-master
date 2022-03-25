@@ -129,7 +129,7 @@ ul {
     }
 
     .rate-section .star2 {
-        margin-left: 120px;
+        margin-left: 130px;
     }
 
     .rate-section .star3 {
@@ -146,11 +146,13 @@ ul {
     }
 
     .card-section .card2 {
-        margin-top: 30px;
+        position: relative;
+        top: 20px    
     }
 
     .card-section .card3 {
-        margin-top: 60px;
+        position: relative;
+        top: 40px 
     }
 
     
